@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Task 2</title>
+  </head>
+  <body>
+    
+    <label for="name">Name</label>
+    <input id="name" placeholders="enter your name">
+    <button onclick="showName()">Show Name</button>
+    <h2 id="output"></h2>
+    
+    <script>
+      function showName () {
+        let name= document.getElementById("name").value;
+        
+        let output= document.getElementById("output").innerText="Hello" + name +"!";
+        
+        
+      }
+      
+      </script>
+  </body>
+</html>
